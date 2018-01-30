@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "dist/main.js",
   "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retracy/tsdebug.git"
+  },
   "scripts": {
     "build": "tsc"
   },
