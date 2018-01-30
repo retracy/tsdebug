@@ -1,0 +1,13 @@
+{
+  "name": "tsdebug",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "license": "CC0-1.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "ts-node": "3.3.0",
+    "typescript": "2.5.2"
+  }
+}
