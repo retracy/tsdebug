@@ -1,13 +1,6 @@
-let data = [
-  {
-    name: "a",
-    val: 1,
-  },
-  {
-    name: "b",
-    val: 2,
-  },
-];
+let c = "cui-a cui-b"
+let criteria = "cui-"
+let m = c.split(' ').filter(t => t.match(criteria))
+console.log(m)
 
-let x = data.find(n => n.name.includes('a')).val
-console.log(x);
+console.log(criteria);
