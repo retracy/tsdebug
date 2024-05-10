@@ -1,6 +1,22 @@
-let c = "cui-a cui-b"
-let criteria = "cui-"
-let m = c.split(' ').filter(t => t.match(criteria))
-console.log(m)
+interface Environment {
+    isGovCloud?: boolean
+}
 
-console.log(criteria);
+let government: Environment =
+{
+    isGovCloud: true
+}
+
+let commercial: Environment =
+{
+    isGovCloud: false,
+}
+
+let undeclared: Environment =
+{
+    // isGovCloud: false
+}
+
+console.log("government: " + (government.isGovCloud ? "yes" : "no"))
+console.log("commercial: " + (commercial.isGovCloud ? "yes" : "no"))
+console.log("undeclared: " + (undeclared.isGovCloud ? "yes" : "no"))
